@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pole2"
+    tools:context=".MainActivity"
+    app:layoutDescription="@xml/activity_main_scene">
+
+
+    <ImageView
+        android:id="@+id/bird"
+        android:layout_width="26dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="672dp"
+        android:background="@drawable/shape_example"
+        android:clipToOutline="true"
+        android:src="@drawable/mych"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="113dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape_example"
+        android:onClick="sendMessage"
+        android:text="Сначала"
+        app:backgroundTint="#4C682B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/vratar"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/goalkeaper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/messi"
+        android:layout_width="67dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="484dp"
+        android:src="@drawable/messi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/player3"
+        android:layout_width="58dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="384dp"
+        android:src="@drawable/player3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/player4"
+        android:layout_width="56dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/player4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/messi2"
+        android:layout_width="41dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/messi2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
